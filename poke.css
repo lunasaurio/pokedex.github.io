@@ -1,0 +1,89 @@
+*{
+    list-style: none;
+}
+
+.lanzar{
+	box-shadow:inset 0px 1px 0px 0px #99C147;
+	background:linear-gradient(to bottom, #99C147 5%, #99C147 100%);
+	background-color:#99C147;
+	border-radius:50%;
+    height: 80px;
+    margin: 4px 2px;
+	position: absolute;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #99C147;
+	margin-top: -7.3cm;
+	margin-left: 8.7cm;
+}
+
+.lanzar:hover {
+	background:linear-gradient(to bottom, #6B8734 5%, #6B8734 100%);
+	background-color:#6B8734;
+}
+
+
+.pokedex{
+   height: 737;
+   width: 838px;
+   margin-left: 4.5cm;
+
+}
+
+.pokeBall{
+    position: absolute;
+    margin-top: -15.5cm;
+}
+
+.pokeName{
+	position: absolute;
+	margin-top: 10.5cm;
+	margin-left: -13.9cm;
+	padding: 5px;
+	font-size: 15px;
+	border-width: 0px;
+	border-color: #CCCCCC;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-style: solid;
+	border-radius: 0px;
+	box-shadow: 0px 0px 8px rgba(66,66,66,.75);
+	text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.css-input {
+	padding: 5px;
+	font-size: 15px;
+	border-width: 0px;
+	border-color: #CCCCCC;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-style: solid;
+	border-radius: 0px;
+	box-shadow: 0px 0px 8px rgba(66,66,66,.75);
+	text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+	outline:none;
+}
+
+.box{
+	box-sizing: content-box;
+	width: fit-content;
+	height: fit-content;
+	text-align: left;
+	margin: 1px;
+	color: #000000;
+	position: absolute;
+	margin-top: -6.5cm;
+	margin-left: 50%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+}
